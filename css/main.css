@@ -117,12 +117,15 @@ a:hover {
    ========================================================================== */
 
 
-.header { margin-top: 30px; }
+.header { margin-top: 60px; }
+.logo { height: 115px; width: 200px; float: left; display: block;}
+.logo img { margin: -50px 0px 0px -60px; }
+.content { margin-top: 70px; }
 
 .wrapper { width:960px; position:relative; left:50%; margin-left:-480px; }
 
-.titleheader { float:left; }
-.subheader { float:left; margin: 30px 0px 0px 30px; color:#C2C2C2; }
+.titleheader { width: 434px; float:left; margin: 20px 0px 0px 30px; }
+.subheader { float:left; margin: 0px 0px 0px 30px; color:#C2C2C2; }
 
 .footer { margin-bottom: 60px; }
 
@@ -246,6 +249,7 @@ a:hover {
 
   .wrapper { width:100%; position:static; left:0px; margin-left:0px; }
 
+  .logo { margin-left: 30px; }
   .titleheader { margin: 20px 0px 0px 30px; }
   .subheader { margin: 0px 0px 0px 30px; }
 
